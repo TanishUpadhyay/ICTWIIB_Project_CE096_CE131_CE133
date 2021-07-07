@@ -54,7 +54,7 @@ if (isset($_POST['send'])) {
             $to = $user_mail;
             $subject = "Password Reset Request For PHP BANK Account";
             $message = $OTP." is your OTP. Don't share this OTP with anyone. We have received your password reset request.[  $OTP ] Enter this OTP and reset your password. Thank you! Team Swift Bank.";
-            $header = "From: viveknimbolkar.educationhost.cloud";
+            $header = "From: patelwalaharsh786@gmail.com";
 
             //now send a mail
             $send_mail_check = mail($to,$subject,$message,$header);
